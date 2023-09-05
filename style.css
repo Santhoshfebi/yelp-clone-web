@@ -1,0 +1,153 @@
+@import url('https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 200vh;
+    width: 100%;
+}
+.container{
+    height: 90vh;
+    width: 100%;
+    left: 0;
+    top: 0;
+    animation: bgslide 16s ease-in-out infinite;
+    background-size: cover;
+}
+@keyframes bgslide {
+    0%,100%{
+        background-image:url('resource/1.jpg');
+    `
+    }
+    25%{
+        background-image:url('resource/2.jpg');
+    }
+    50%{
+        background-image:url('resource/3.jpg');
+    }
+    75%{
+        background-image:url('resource/4.jpg');
+    }
+}
+
+nav{
+    height: 120px;
+    width: 100%;
+    background-image: linear-gradient(to bottom, rgba(74, 70, 70, 0.697),white);
+    padding: 8px;
+}
+.nav_main{
+    height: 80px;
+    width: 100%;
+    justify-content: space-evenly;
+    /* padding: 5px; */
+}
+
+.search_main{
+    height: 50px;
+    width: 800px;
+    justify-content: space-between;
+    border-radius: 7px;
+    overflow: hidden;
+    padding-left: 5px;
+    background: white;
+}
+.dflex{
+    display: flex;
+    align-items: center;
+}
+.search_main input{
+    height: 100%;
+    width: 300px;
+    
+    border: none;
+    outline: none;
+    font: 15px bold;
+    font-family: Open Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.fi-br-tally-1{
+    font-size: 2px;
+    color: gray;
+}
+.search_main button{
+        background: rgb(164, 32, 32);
+        height: 50px;
+        width: 50px;
+        font-size: 25px;
+        padding: 14px;
+        color: white;
+        border: none;
+        cursor: pointer;
+        transition: all .2s linear;
+}
+.search_main button:hover{
+        background: red;
+}
+.commerical{
+    height: 50px;
+    width: 130px;
+    border:none;
+    background: transparent;
+    color: white;
+    font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font: 14px;
+    font-weight: 600;
+}
+.commerical:hover{
+    height: 50px;
+    width: 130px;
+    background-color: gray;
+    border-radius: 7px;
+}
+.review{
+    height: 50px;
+    width: 100px;
+    border:none;
+    background: transparent;
+    color: white;
+    font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font: 14px;
+    font-weight: 600;
+    
+}
+.review:hover{
+    height: 50px;
+    width: 100px;
+    background-color: gray;
+    border-radius: 7px;
+}
+.register{
+    height: 50px;
+    width: 210px;
+    border: 1px black;
+    justify-content: space-between;
+       
+}
+.register button{
+    height: 50px;
+    width: 100px;
+    border-radius: 7px;
+    color: white;
+     font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font: 14px;
+    font-weight: 600;
+}
+.login{
+    background: transparent;
+    border: none;
+    box-shadow: 0 0 0 1px white;
+    
+}
+.signup{
+    background: red;
+    border: none;
+}
+
+
+.dd{
+    height: 20px;
+    width: 70%;
+    margin: auto;
+}
